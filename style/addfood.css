@@ -1,0 +1,36 @@
+.add-food-item {
+    /* background-color: yellowgreen; */
+    height: 75%;
+    width: 75%;
+    margin: auto;
+}
+
+#foodForm {
+    height: 20rem;
+    width: 30rem;
+    display: grid;
+    padding: 10px;
+    margin: auto;
+
+
+}
+
+#foodForm input,
+textarea {
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#foodForm input:focus-visible{
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#foodForm button{
+    color: #ffff;
+    background: #FA2371;
+}
